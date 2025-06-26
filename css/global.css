@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: #d8dee3;
+    font-family: "Audiowide", sans-serif;
+}
+#displayAreaDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    border-radius: 30px;
+    border-width: 1px;
+    background-color: blanchedalmond;
+    font-family: "Audiowide", sans-serif;
+}
+input{
+    background-color: blanchedalmond;
+    font-family: "Audiowide", sans-serif;
+}
+img{
+    margin: 15px;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start
+}
+a{
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 350px)
+{
+    nav
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #displayAreaDiv
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction:column;
+    }
+}
